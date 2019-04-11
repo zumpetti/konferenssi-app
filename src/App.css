@@ -1,0 +1,200 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+@media only screen and (max-width: 767px) {
+  .navbar.navbar-default .navbar-nav > li {
+	  font-size: 35px;
+    text-align:center;
+    padding-top: 0px;
+  }
+  .navbar.navbar-default .navbar-nav > li > a:focus, 
+  .navbar.navbar-default .navbar-nav > li > a:hover {
+    color: #000000;
+    background-color: rgba(3, 152, 208, 0.1);
+    font-size: 35px;
+    text-align: center;
+  }
+  .navbar.navbar-default .active a,
+  .navbar.navbar-default .active a:focus,
+  .navbar.navbar-default .active a:hover {
+    color: #000000;
+    background-color: rgba(3, 152, 208, 0.1);
+    font-size: 35px;
+    text-align: center; 
+           
+  }
+  .navbar.navbar {
+	  margin-bottom: 5px;
+  }
+  .navbar-nav {
+    margin: 0px 0px;
+  }
+  .navbar.navbar-default .dropdown-menu {
+	  background-color: rgba(3, 152, 208, 0.1);
+	  color: #ffffff;
+	  font-size: 35px;
+	  text-align:center;  
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	  color: #000000;
+	  font-size: 30px;
+	  text-align:center;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+	  color: rgb(0, 0, 255);
+	  font-size: 30px;
+	  text-align:center;
+	  background-color: rgba(3, 152, 208, 0.1)!important;
+  }
+  .navbar.navbar-brand {
+		max-width: 75%!important;
+		height: auto;
+  }
+}
+  
+.jumbotron {
+  background: url('/firm_images/banner.png');
+  max-width: 100%;
+  height: 100%;
+  margin-bottom: 5%;
+  color: #000000;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+
+@media only screen and (max-width: 760px) {
+  .carousel-container {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    width: 100%;
+    display: flex !important;
+    height: 20px;
+    padding: auto;
+  }
+
+  .carousel-item>img {
+    height: 20px;
+  }
+
+  #carousel-img {
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    width: 100%;
+    height: 20px;
+    object-fit: contain;
+  }
+}
+.carousel-container {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 100%;
+  display: flex !important;
+  height: auto;
+  margin-bottom: 2% !important;
+}
+
+#carousel-img {
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 15%;
+  width: 40%;
+  height: 104px;
+  object-fit: contain;
+}
+
+
+
+.navbar.navbar-default {
+  background-color: rgba(0,0,0,0);
+  border-style: none;
+  font-size:24px;
+  color: #000000;
+}
+.navbar.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+#myNavbar {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar.navbar-default .navbar-nav > li > a:focus, 
+.navbar.navbar-default .navbar-nav > li > a:hover {
+   color: #000000;
+   border-top: 3px solid black;
+   border-color: rgb(3, 152, 208);
+   padding-top: 12px; 
+}
+.navbar.navbar-default .active a,
+.navbar.navbar-default .active a:focus,
+.navbar.navbar-default .active a:hover {
+   color: #000000;
+   background-color: rgba(0,0,0,0);
+   border-top: 3px solid black;
+   border-color: rgb(3, 152, 208);
+   padding-top: 12px;
+}
+
+.navbar.navbar-brand {
+  float: left;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar-brand {
+  max-width: 100%;
+  height: auto;
+}
+.navbar-header {
+  padding-right: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+.navbar.navbar-toggle {
+  padding: 12px;
+  margin-top: 17px;
+}
+
+.navbar.navbar-toggle:hover,
+.navbar.navbar-toggle:focus {
+   background-color: #0398D0;
+   color: black;
+}
+.navbar.navbar-default .dropdown-menu {     
+   color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+   color: rgb(3, 152, 208);
+   background-color: #ffffff;
+}

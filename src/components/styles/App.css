@@ -1,0 +1,234 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@media only screen and (max-width: 767px) {
+  navbar.navbar-default .navbar-nav > li {
+		font-size: 35px!important;
+    text-align:center;
+    padding-top: 0px;
+   }
+  .navbar.navbar-default .navbar-nav > li > a:focus, 
+  .navbar.navbar-default .navbar-nav > li > a:hover {
+    color: #000000;
+    background-color: rgba(3, 152, 208, 0.1);
+    font-size: 35px!important;
+    text-align:center;
+   }
+  .navbar.navbar-default .active a,
+  .navbar.navbar-default .active a:focus,
+  .navbar.navbar-default .active a:hover {
+    color: #000000;
+    background-color: rgba(3, 152, 208, 0.1);
+    font-size: 35px!important;
+    text-align:center; 
+  }
+  .navbar.navbar {
+		margin-bottom: 5px;
+  }
+  .navbar-nav {
+    margin: 0px 0px;
+  }
+  .navbar.navbar-default .dropdown-menu {
+		background-color: rgba(3, 152, 208, 0.1);
+		color: #ffffff;
+		font-size: 35px!important;
+		text-align: left;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: #000000;
+		font-size: 30px;
+		text-align:left;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+		color: rgb(0, 0, 255);
+		font-size: 30px;
+		text-align:left;
+		background-color: rgba(3, 152, 208, 0.1)!important;
+  }
+  .navbar.navbar-brand {
+  	max-width: 75%!important;
+  	height: auto;
+  	vertical-align: middle;
+  }
+}
+ 
+@media only screen and (max-width: 989px) { 
+	.nav > li > a {
+		padding-right: 10px;
+	}
+	.navbar.navbar-default .navbar-nav > li {
+		font-size: 18px;
+  }
+  .navbar.navbar-default .navbar-nav > li > a:focus, 
+  .navbar.navbar-default .navbar-nav > li > a:hover {
+    font-size: 18px;
+  }
+  .navbar.navbar-default .active a,
+  .navbar.navbar-default .active a:focus,
+  .navbar.navbar-default .active a:hover {
+    font-size: 18px;           
+  }
+  .navbar.navbar-default .dropdown-menu {
+    font-size: 18px;
+  }
+	.navbar.navbar-brand {
+		width: 600px!important;
+		height: auto;
+	}
+}
+
+.jumbotron {
+  color: #ffffff;
+}
+.navbar.navbar-default {
+   background-color: rgba(0,0,0,0);
+   border-style: none;
+   font-size:24px;
+   color: #000000;
+}
+.navbar.navbar-default .navbar-nav > li > a {
+  color: #000000;
+}
+#myNavbar {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.navbar.navbar-default .navbar-nav > li > a:focus, 
+.navbar.navbar-default .navbar-nav > li > a:hover {
+  color: #000000;
+  border-top: 3px solid black;
+  border-color: rgb(3, 152, 208);
+  padding-top: 12px; 
+}
+.navbar.navbar-default .active a,
+.navbar.navbar-default .active a:focus,
+.navbar.navbar-default .active a:hover {
+  color: #000000;
+  background-color: rgba(0,0,0,0);
+  border-top: 3px solid black;
+  border-color: rgb(3, 152, 208);
+  padding-top: 12px;
+}
+
+.navbar.navbar-brand {
+  float: left;
+  padding-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  max-width: 120%;
+  height: auto;
+}
+
+.navbar-collapse {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+}
+
+.container-fluid {
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 5px;
+  margin-right: 0px;
+}
+
+.navbar-brand {
+  max-width: 100%;
+  height: auto;
+  padding-left: 5px;
+}
+.navbar-header {
+  padding-right: 0px;
+  margin-right: 0px;
+  padding-left: 10px;
+  margin-left: 0px;
+}
+
+.navbar.navbar-toggle {
+  padding: 12px;
+  margin-top: 17px;
+}
+
+.navbar.navbar-toggle:hover,
+.navbar.navbar-toggle:focus {
+  background-color: #0398D0;
+  color: black;
+}
+.navbar.navbar-default .dropdown-menu {     
+  color: #ffffff;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: rgb(3, 152, 208);
+  background-color: #ffffff;
+}
+
+.vasen {
+  text-align: left;
+}
+
+.navbar-right {
+  margin-right: 0px; 
+}
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+	border-color: rgb(3, 152, 208);
+  padding: 20px; 
+}
+.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {
+	margin-right: 0px; 
+}
+
+.panel {
+	max-width: none;
+}
+
+.linkit {
+	text-decoration: none;
+	color: black;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}

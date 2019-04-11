@@ -1,0 +1,14 @@
+#panelYla {
+  border: 1px solid;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#panelAla {
+  border: 0.5px inset;
+  height: 40px;
+}
+
+#posterInfo img {
+  float: top;
+}

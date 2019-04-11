@@ -1,0 +1,71 @@
+
+#rating {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  
+  #ratingName {
+    text-align: start;
+  }
+  
+  #ratingHead {
+    border: 1px groove;
+  }
+
+  #error {
+    color: red;
+  }
+  
+  #newRatingHead {
+    max-width: 850px;
+    margin: auto;
+  }
+  
+  #newRatingMid { 
+    max-width: 850px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #arv {
+    float: left;
+    size: 4px;
+    font-style: oblique;
+  }
+  
+  #arv2 {
+    text-align: start;
+    size: 4px;
+    font-style: oblique;
+  }
+  
+  #backBtn {
+    justify-content: center;
+  }
+  
+  .nameBox {
+    width: auto;
+    max-width: 800px;
+    background-color: rgb(232, 233, 232);
+    border-style: ridge;
+    border-color: coral;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+  }
+    
+  .commentBox {
+    width: 80%;
+    max-width: 800px;
+    height: 80px;
+    background-color: rgb(232, 233, 232);
+    border-style: ridge;
+    border-color: coral;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    
+  }
